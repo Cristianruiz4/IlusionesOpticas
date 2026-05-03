@@ -1,0 +1,19 @@
+body {
+    background: #eee;
+    font-family: Arial;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    justify-content: center;
+}
+
+canvas {
+    width: 250px;
+    height: 250px;
+    background: white;
+    border: 2px solid black;
+}
